@@ -16,11 +16,13 @@ LogVar 弹幕 API 服务器
 [![telegram](https://img.shields.io/static/v1?label=telegram&message=telegram_group&color=blue)](https://t.me/logvar_danmu_group)
 
 ---获取全部剧集事例：
+
 http://192.168.1.7:9321/704840213/api/v2/search/episodes?anime=入青云
 
 http://192.168.1.7:9321/704840213/api/v2/comment/10091?format=xml
 
 解释：
+
 http://192.168.1.7:9321 你搭建的api
 
 704840213 你搭建的token值
