@@ -15,7 +15,14 @@ LogVar 弹幕 API 服务器
 [![telegram](https://img.shields.io/static/v1?label=telegram&message=telegram_channel&color=blue)](https://t.me/logvar_danmu_channel)
 [![telegram](https://img.shields.io/static/v1?label=telegram&message=telegram_group&color=blue)](https://t.me/logvar_danmu_group)
 
----
+---获取全部剧集事例：
+http://192.168.1.7:9321/704840213/api/v2/search/episodes?anime=入青云
+http://192.168.1.7:9321/704840213/api/v2/comment/10091?format=xml
+解释：
+http://192.168.1.7:9321 你搭建的api
+704840213 你搭建的token值
+10091  获取到的集数id
+format  xml 格式 和json格式  
 
 一个人人都能部署的基于 js 的弹幕 API 服务器，支持爱优腾芒哔人韩巴弹幕直接获取，兼容弹弹play的搜索、详情查询和弹幕获取接口规范，并提供日志记录，支持vercel/netlify/edgeone/cloudflare/docker/claw等部署方式，不用提前下载弹幕，没有nas或小鸡也能一键部署。
 
